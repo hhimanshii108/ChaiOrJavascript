@@ -63,3 +63,23 @@ const myFunction= function(){
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack memory (primitive), Heap (Non primitive)
+
+let var1="hima"
+let var2=var1;
+var2="nikhil"
+console.log(var1);
+console.log(var2);
+
+let var3={
+    email:"hima@123.com",
+    number:1234
+}
+let var4=var3;
+var4.email="nk@gmail.com"
+console.log(var3.email);
+console.log(var4.email);
