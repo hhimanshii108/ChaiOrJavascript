@@ -5,7 +5,7 @@ const tinderUser={};
 tinderUser.id="123tbh"
 tinderUser.name="nk"
 tinderUser.iSLoggedIn=false
-console.log(tinderUser);
+//console.log(tinderUser);
 
 const regularUser={
     email:"xyz@gmail.com",
@@ -16,7 +16,7 @@ const regularUser={
         }
     }
 }
-console.log(regularUser.fullname.userfullname.lastname);
+//console.log(regularUser.fullname.userfullname.lastname);
 
 //combining objects
 
@@ -28,9 +28,19 @@ const obj3=Object.assign({},obj1,obj2)
 // {}  acts as target and rest as soruce, optioanl , good to give
 
 const obj4={...obj1,...obj2}
-console.log(obj4);
+// console.log(obj4);
 
-console.log(Object.keys(tinderUser)); // returns all keys in array
-console.log(Object.values(tinderUser)); // returns all values in array
-console.log(Object.entries(tinderUser)); // returns all keys and values in array inside array
-console.log(tinderUser.hasOwnProperty("name")); // checks if object has a certain property or not
+// console.log(Object.keys(tinderUser)); // returns all keys in array
+// console.log(Object.values(tinderUser)); // returns all values in array
+// console.log(Object.entries(tinderUser)); // returns all keys and values in array inside array
+// console.log(tinderUser.hasOwnProperty("name")); // checks if object has a certain property or not
+
+//*****************DESTRUCTURING OBJECTS**********************************************/
+
+const course={
+    coursename:"javascript",
+    price:"999",
+    courseInstructor:"hitesh"
+}
+const {courseInstructor:instructor}=course
+console.log(instructor);
