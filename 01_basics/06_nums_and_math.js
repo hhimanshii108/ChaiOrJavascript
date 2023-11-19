@@ -3,7 +3,7 @@ const score = 300
 const balance = new Number(100)
 // console.log(balance);
 // console.log(balance.toString().length);
-// console.log(balance.toFixed(1));
+console.log(balance.toFixed(1));
 
 const num=23.5786
 // console.log(num.toPrecision(2));

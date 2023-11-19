@@ -13,14 +13,14 @@ console.log(gameName.toUpperCase());
 console.log(gameName.charAt(2));
 console.log(gameName.indexOf('g'));
 
-const newStr=gameName.substring(0,2)
+const newStr=gameName.substring(0,2)  // pu
 console.log(newStr);
 
 const str3=gameName.slice(0,3)
-console.log(str3);
+console.log(str3);   //pub
 
 const tstr="      him    aa   "
-console.log(tstr.trim());
+console.log(tstr.trim());  // him   aa
 
 const url="https://hima.com/hima%20rana"
 console.log(url.replace('%20','-'));
